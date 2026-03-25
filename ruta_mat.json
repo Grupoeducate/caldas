@@ -1,0 +1,152 @@
+{
+  "area_metadata": {
+    "nombre": "Matemáticas",
+    "codigo_area": "MAT",
+    "enfoque": "Razonamiento, Resolución de Problemas y Modelación",
+    "peso_ponderado": 3
+  },
+  "analisis_estadistico": {
+    "historico_puntajes": [
+      { "periodo": "2023-4", "promedio": 50, "desviacion_estandar": 12 },
+      { "periodo": "2024-3", "promedio": 48, "desviacion_estandar": 11 },
+      { "periodo": "2025-3", "promedio": 51, "desviacion_estandar": 11 }
+    ],
+    "niveles_desempeno": [
+      { "año": "2023", "nivel_1": 11, "nivel_2": 45, "nivel_3": 39, "nivel_4": 5 },
+      { "año": "2024", "nivel_1": 15, "nivel_2": 45, "nivel_3": 37, "nivel_4": 3 },
+      { "año": "2025", "nivel_1": 7, "nivel_2": 43, "nivel_3": 46, "nivel_4": 4 }
+    ],
+    "porcentaje_incorrectas_ee": [
+      {
+        "aprendizaje": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas",
+        "porcentaje_error": 64,
+        "referencia_colombia": 57
+      },
+      {
+        "aprendizaje": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas",
+        "porcentaje_error": 50,
+        "referencia_colombia": 47
+      },
+      {
+        "aprendizaje": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos",
+        "porcentaje_error": 39,
+        "referencia_colombia": 36
+      }
+    ]
+  },
+  "matriz_dofa_area": {
+    "fortalezas": [
+      "Recuperación significativa del promedio en 2025 (51 puntos).",
+      "Reducción sustancial del Nivel 1, pasando del 15% al 7% en el último año.",
+      "Aumento de estudiantes en Nivel 3 (46%), superando los registros de los dos años anteriores."
+    ],
+    "debilidades": [
+      "Alto índice de error (64%) en la validación de procedimientos, superando el promedio nacional.",
+      "Baja representación en el Nivel 4 (solo el 4%), lo que indica dificultad para resolver problemas de alta complejidad.",
+      "Dificultad marcada en el planteamiento de estrategias frente a problemas cuantitativos (50% de error)."
+    ],
+    "oportunidades": [
+      "La desviación estándar estable (11-12) permite aplicar estrategias de nivelación grupal efectivas.",
+      "Aprovechar la tendencia de crecimiento de 2024 a 2025 para consolidar procesos de razonamiento.",
+      "Implementar la ruta metodológica de las 4 fases para atacar el error en validación."
+    ],
+    "amenazas": [
+      "Brecha de 7 puntos porcentuales de error por encima de la media nacional en competencias de validación.",
+      "Riesgo de estancamiento en el Nivel 2 (43%) si no se fortalece la argumentación matemática.",
+      "Sensibilidad a la baja en el promedio si se descuida la precisión en cálculos intermedios."
+    ]
+  },
+  "ruta_metodologica": {
+    "titulo": "Las 4 Fases del Razonamiento Matemático (Saber 11)",
+    "objetivo_general": "Que el estudiante aborde sistemáticamente cualquier ítem de Matemáticas, decodificando el problema, seleccionando una estrategia matemática válida, ejecutándola con precisión y validando la solución en el contexto de las opciones.",
+    "fases": [
+      {
+        "nombre": "Fase 1: DECONSTRUCCIÓN (Entender el Problema y sus Datos)",
+        "objetivo_pedagogico": "Asegurar la comprensión profunda del escenario, la pregunta y los datos proporcionados.",
+        "acciones_estudiante": [
+          "Lectura y Visualización del Contexto: Leer atentamente el enunciado. Analizar gráficos, tablas, figuras o diagramas asociados. Identificar el contexto (científico, social, personal, etc.).",
+          "Identificar la Pregunta/Objetivo: ¿Qué me están pidiendo calcular, encontrar, determinar o comparar exactamente?",
+          "Identificar Palabras y Datos Clave: Subrayar o listar los datos numéricos, variables, unidades, condiciones y restricciones explícitas. Identificar términos matemáticos clave (promedio, área, probabilidad, pendiente, función, etc.).",
+          "Parafrasear el Problema: Reformular la situación y la pregunta con palabras propias para verificar la comprensión."
+        ],
+        "guia_docente": [
+          "Modelar cómo extraer información de diversos formatos (texto, tabla, gráfico).",
+          "Enfatizar la diferencia entre datos relevantes e irrelevantes.",
+          "Practicar la identificación de la incógnita o el objetivo final."
+        ],
+        "preguntas_orientadoras": {
+          "contexto": ["¿De qué trata la situación?", "¿Qué información me da esta tabla/gráfico?", "¿Qué se quiere lograr o resolver?"],
+          "datos_pregunta": ["¿Qué datos numéricos son importantes?", "¿Hay alguna condición especial?", "¿Qué significa esta palabra clave matemática?", "¿Puedes explicarme el problema con tus palabras?"]
+        }
+      },
+      {
+        "nombre": "Fase 2: ESTRATEGIA Y MODELACIÓN (Planificar la Solución)",
+        "objetivo_pedagogico": "Seleccionar el enfoque matemático y las herramientas adecuadas para resolver el problema planteado.",
+        "acciones_estudiante": [
+          "Conectar con Conceptos Matemáticos: ¿Qué área de las matemáticas se relaciona con este problema (Aritmética, Álgebra, Geometría, Estadística)? ¿Qué conceptos, fórmulas, teoremas o propiedades necesito aplicar?",
+          "Diseñar un Plan/Modelo: ¿Cómo voy a resolver esto? ¿Necesito planteamiento de ecuaciones, uso de fórmulas, dibujo de diagramas, construcción de tablas o procedimientos estadísticos?",
+          "Anticipar Pasos: Esbozar (mentalmente o por escrito) la secuencia de pasos necesarios para ejecutar el plan."
+        ],
+        "guia_docente": [
+          "Ayudar a los estudiantes a reconocer patrones de problemas y asociarlos con conceptos/estrategias.",
+          "Discutir diferentes vías de solución para un mismo problema.",
+          "Modelar la traducción de situaciones verbales a expresiones o modelos matemáticos."
+        ],
+        "preguntas_orientadoras": {
+          "conceptos": ["¿Qué tema de matemáticas te recuerda este problema?", "¿Qué fórmula o propiedad podría ser útil aquí?"],
+          "plan": ["¿Cuál sería el primer paso para resolverlo?", "¿Necesitas hacer algún cálculo intermedio?", "¿Qué estrategia matemática vas a usar y por qué?"]
+        }
+      },
+      {
+        "nombre": "Fase 3: EJECUCIÓN Y CÁLCULO (Realizar las Operaciones)",
+        "objetivo_pedagogico": "Aplicar los procedimientos matemáticos seleccionados de manera precisa y eficiente.",
+        "acciones_estudiante": [
+          "Realizar Operaciones: Ejecutar los cálculos aritméticos, algebraicos, geométricos o estadísticos definidos en el plan.",
+          "Seguir el Procedimiento: Trabajar paso a paso, manteniendo el orden y la claridad (incluso en borrador).",
+          "Manejar Unidades: Prestar atención a las unidades de medida y asegurarse de que sean consistentes.",
+          "Verificar Cálculos Intermedios: En procesos largos, revisar operaciones clave para minimizar errores de arrastre."
+        ],
+        "guia_docente": [
+          "Reforzar la precisión en las operaciones básicas y el manejo de fórmulas.",
+          "Enseñar estrategias de organización del trabajo en problemas complejos.",
+          "Fomentar el uso adecuado de la calculadora como práctica formativa (aunque no se use en la prueba)."
+        ],
+        "preguntas_orientadoras": {
+          "ejecucion": ["¿Estás seguro de esa operación?", "¿Las unidades son correctas?", "¿Seguiste todos los pasos de tu plan?"]
+        }
+      },
+      {
+        "nombre": "Fase 4: VALIDACIÓN Y SELECCIÓN (Comprobar y Elegir Respuesta)",
+        "objetivo_pedagogico": "Asegurar que la respuesta obtenida sea matemáticamente correcta, lógicamente coherente con el contexto y seleccionar la opción correspondiente.",
+        "acciones_estudiante": [
+          "Evaluar la Razonabilidad: ¿La respuesta tiene sentido en el contexto del problema? (Ej: probabilidad > 1 o longitud negativa).",
+          "Verificar la Respuesta: Comprobar el resultado sustituyéndolo en la ecuación original o mediante métodos alternativos simples.",
+          "Comparar con las Opciones: Buscar la opción (A, B, C, D) que coincida exactamente con el resultado validado.",
+          "Analizar Distractores Matemáticos: Si no coincide, revisar opciones incorrectas e identificar errores comunes de cálculo, fórmula o interpretación.",
+          "Seleccionar y Justificar (Argumentación): Elegir la opción correcta y ser capaz de explicar por qué el procedimiento es válido."
+        ],
+        "guia_docente": [
+          "Enseñar técnicas de estimación y verificación de resultados.",
+          "Discutir errores comunes específicos y cómo se reflejan en los distractores.",
+          "Vincular la justificación con la competencia de Argumentación del ICFES."
+        ],
+        "preguntas_orientadoras": {
+          "validacion": ["¿Este resultado parece lógico para la situación?", "¿Cómo podrías comprobar rápidamente si es correcto?", "¿Coincide exactamente con alguna opción?"],
+          "seleccion_argumentacion": ["¿Por qué las otras opciones son incorrectas?", "¿Puedes explicar por qué tu método te lleva a la respuesta correcta?"]
+        }
+      }
+    ]
+  },
+  "plan_mejoramiento_estrategico": {
+    "estrategias_aula": [
+      "Uso de 'Preguntas Orientadoras' en cada resolución de problemas para mecanizar la deconstrucción.",
+      "Sesiones de 'Análisis de Distractores' donde el estudiante debe explicar por qué las opciones incorrectas están ahí.",
+      "Implementación de simulacros cortos (5-10 preguntas) con tiempo controlado para mejorar la eficiencia en la Fase 3."
+    ],
+    "tareas_casa": [
+      "Resolución de un problema diario siguiendo las 4 fases, entregando el borrador de la fase de modelación.",
+      "Uso de plataformas interactivas para reforzar las operaciones básicas y reducir el error por arrastre.",
+      "Lectura de infografías de datos reales para practicar la interpretación de gráficos fuera del contexto escolar."
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "area_metadata": {
+    "nombre": "Ciencias Naturales",
+    "codigo_area": "CN",
+    "enfoque": "Uso comprensivo del conocimiento científico, Explicación de fenómenos e Indagación",
+    "peso_ponderado": 3
+  },
+  "analisis_estadistico": {
+    "historico_puntajes": [
+      { "periodo": "2023-4", "promedio": 50, "desviacion_estandar": 9 },
+      { "periodo": "2024-3", "promedio": 48, "desviacion_estandar": 9 },
+      { "periodo": "2025-3", "promedio": 49, "desviacion_estandar": 10 }
+    ],
+    "niveles_desempeno": [
+      { "año": "2023", "nivel_1": 18, "nivel_2": 56, "nivel_3": 23, "nivel_4": 2 },
+      { "año": "2024", "nivel_1": 20, "nivel_2": 59, "nivel_3": 19, "nivel_4": 2 },
+      { "año": "2025", "nivel_1": 22, "nivel_2": 47, "nivel_3": 29, "nivel_4": 3 }
+    ],
+    "porcentaje_incorrectas_ee": [
+      {
+        "aprendizaje": "Comprender que a partir de la investigación científica se construyen explicaciones (Procesos Físicos)",
+        "porcentaje_error": 72,
+        "referencia_colombia": 60
+      },
+      {
+        "aprendizaje": "Identificar las características de algunos fenómenos de la naturaleza basado en el análisis (Procesos Vivos)",
+        "porcentaje_error": 62,
+        "referencia_colombia": 55
+      },
+      {
+        "aprendizaje": "Asociar fenómenos naturales con conceptos propios del conocimiento científico (Procesos Químicos)",
+        "porcentaje_error": 55,
+        "referencia_colombia": 49
+      },
+      {
+        "aprendizaje": "Modelar fenómenos de la naturaleza basado en el análisis de variables (Físico)",
+        "porcentaje_error": 60,
+        "referencia_colombia": 56
+      }
+    ]
+  },
+  "matriz_dofa_area": {
+    "fortalezas": [
+      "Incremento significativo en el Nivel 3 (29% en 2025), lo que demuestra que un grupo importante de estudiantes ya logra explicar fenómenos complejos.",
+      "Crecimiento en el Nivel 4, alcanzando el 3% en el último año.",
+      "Estabilidad en la desviación estándar (10), lo que facilita intervenciones pedagógicas uniformes."
+    ],
+    "debilidades": [
+      "Aumento progresivo del Nivel 1 (del 18% al 22% en tres años). Uno de cada cinco estudiantes no identifica conceptos básicos.",
+      "Brecha crítica en el componente Físico: el 72% de los estudiantes falla en construir explicaciones científicas.",
+      "Dificultad en la modelación de variables (60% de error), lo que afecta la competencia de Indagación."
+    ],
+    "oportunidades": [
+      "La implementación de la fase de 'Decodificación' de la ruta metodológica puede ayudar a reducir el Nivel 1 mediante la lectura atenta de estímulos gráficos.",
+      "Aprovechar el aumento del Nivel 3 para generar tutorías entre pares (estudiantes de nivel 3 apoyando a niveles 1 y 2).",
+      "Fortalecer el uso de diagramas experimentales en el aula para atacar el 72% de error en explicaciones."
+    ],
+    "amenazas": [
+      "Si la tendencia de aumento en el Nivel 1 continúa, el promedio del área podría caer por debajo de los 45 puntos en 2026.",
+      "Gran diferencia (12 puntos) respecto al error nacional en procesos físicos, lo que resta competitividad a la institución.",
+      "Riesgo de desatención de los procesos químicos y vivos por priorizar el componente físico."
+    ]
+  },
+  "ruta_metodologica": {
+    "titulo": "Las 4 Fases del Explorador Científico (Ciencias Naturales)",
+    "objetivo_general": "Que el estudiante aborde sistemáticamente cualquier ítem de Ciencias Naturales, decodificando la situación, conectándola con el conocimiento científico pertinente (Biología, Química, Física), aplicando el conocimiento para analizar opciones y seleccionando la respuesta mejor sustentada.",
+    "fases": [
+      {
+        "nombre": "Fase 1: DECODIFICACIÓN (Comprender el Escenario y la Pregunta)",
+        "objetivo_pedagogico": "Asegurar una comprensión clara del fenómeno, experimento o modelo presentado en el estímulo.",
+        "acciones_estudiante": [
+          "Lectura/Observación Atenta: Analizar el gráfico, tabla o esquema experimental. Identificar si es un proceso biológico, reacción química o principio físico.",
+          "Identificar la Pregunta Específica: Determinar qué se pide exactamente (Explicar, predecir, interpretar, comparar).",
+          "Extraer Información Clave: Señalar variables independientes, dependientes y controladas, así como unidades y restricciones.",
+          "Parafrasear: Describir la situación con palabras propias para confirmar la comprensión."
+        ],
+        "guia_docente": [
+          "Modelar cómo 'leer' ejes de gráficos y leyendas de tablas.",
+          "Enseñar a distinguir información esencial de detalles secundarios.",
+          "Practicar la reformulación de la pregunta para clarificar el objetivo."
+        ],
+        "preguntas_orientadoras": {
+          "escenario": ["¿Qué fenómeno natural se está describiendo?", "¿Qué variables están involucradas?", "¿Qué información clave da el gráfico?"],
+          "pregunta": ["¿Cuál es la tarea principal a realizar?", "¿Qué concepto científico es el centro de la pregunta?", "¿Qué tipo de respuesta se espera?"]
+        }
+      },
+      {
+        "nombre": "Fase 2: CONEXIÓN CIENTÍFICA (Activar y Vincular Conocimiento)",
+        "objetivo_pedagogico": "Relacionar la información del estímulo con conceptos, leyes y teorías previas de las ciencias.",
+        "acciones_estudiante": [
+          "Identificar Principios Relevantes: ¿Se aplican las Leyes de Newton, Conservación de Energía, Mendel, Evolución o Teoría Atómica?",
+          "Seleccionar Conocimiento Específico: Elegir la fórmula o definición precisa necesaria para abordar la pregunta.",
+          "Analizar Relaciones: Identificar causas y efectos, correlaciones y patrones entre los componentes del sistema científico."
+        ],
+        "guia_docente": [
+          "Hacer explícitos los vínculos entre la situación y los principios científicos subyacentes.",
+          "Fomentar el uso de lenguaje científico preciso.",
+          "Modelar el uso de teoría para interpretar datos o diagramas."
+        ],
+        "preguntas_orientadoras": {
+          "conocimiento": ["¿Qué tema de Biología/Química/Física explica este fenómeno?", "¿Qué principio fundamental se relaciona?", "¿Qué fórmula necesitas?"],
+          "vinculacion": ["¿Cómo se aplica esa ley a esta situación específica?", "¿Qué relación hay entre las variables A y B?"]
+        }
+      },
+      {
+        "nombre": "Fase 3: ANÁLISIS Y EVALUACIÓN (Aplicar Razonamiento y Juzgar Opciones)",
+        "objetivo_pedagogico": "Desarrollar la capacidad de aplicar el razonamiento científico para explicar o predecir, descartando incorrectas con base en evidencia.",
+        "acciones_estudiante": [
+          "Aplicar el Conocimiento Seleccionado: Usar los modelos identificados para explicar el fenómeno o resolver el problema planteado.",
+          "Análisis Crítico de Opciones: Leer cada opción (A, B, C, D) cuidadosamente.",
+          "Contrastar con la Evidencia: ¿Es la opción coherente con mi predicción basada en principios científicos?",
+          "Identificar y Descartar Distractores: Determinar por qué una opción es inválida (¿Contradice una ley?, ¿Confunde causa-efecto?, ¿Es lógicamente inconsistente?)."
+        ],
+        "guia_docente": [
+          "Modelar procesos de razonamiento deductivo e inductivo.",
+          "Enseñar a identificar errores científicos comunes en los distractores.",
+          "Fomentar la justificación explícita del descarte usando argumentos científicos."
+        ],
+        "preguntas_orientadoras": {
+          "aplicacion": ["¿Cómo usas esa ley para explicar lo que pasa?", "¿Qué te dicen los datos sobre la hipótesis?"],
+          "evaluacion_opciones": ["¿Es la opción A científicamente correcta en este contexto?", "¿Qué principio científico contradice la opción B?"]
+        }
+      },
+      {
+        "nombre": "Fase 4: VALIDACIÓN Y SELECCIÓN (Confirmar y Elegir)",
+        "objetivo_pedagogico": "Consolidar la elección final asegurando que sea la más precisa y científicamente fundamentada.",
+        "acciones_estudiante": [
+          "Revisar Coherencia Global: Verificar que la opción responda a la Fase 1 y se alinee con la Fase 2.",
+          "Evaluar Razonabilidad Científica: ¿Tienen sentido las magnitudes o relaciones en la respuesta?",
+          "Comparar Finalistas: Si hay duda, elegir la explicación más completa y mejor sustentada.",
+          "Seleccionar Respuesta Definitiva: Marcar la opción que mejor cumple todos los criterios científicos."
+        ],
+        "guia_docente": [
+          "Enfatizar que la correcta es la mejor explicación dentro del marco ofrecido.",
+          "Promover la confianza basada en el rigor del análisis previo.",
+          "Fomentar una última revisión de la conexión Pregunta-Respuesta."
+        ],
+        "preguntas_orientadoras": {
+          "validacion": ["¿Es esta la explicación más sólida?", "¿Es coherente con todos los datos?", "¿Responde exactamente a lo preguntado?"],
+          "seleccion_final": ["¿Puedes defender tu elección con argumentos claros basados en la ciencia?"]
+        }
+      }
+    ]
+  },
+  "plan_mejoramiento_estrategico": {
+    "estrategias_aula": [
+      "Modelado Transversal: Aplicar las 4 fases en problemas de Biología, Química y Física por igual.",
+      "Práctica Integrada: Diseñar simulacros que mezclen componentes para practicar la flexibilidad de la ruta.",
+      "Retroalimentación Orientada al Proceso: Analizar en qué fase de la ruta falló el estudiante (ej. si fue en la conexión de la ley o en la lectura del gráfico)."
+    ],
+    "tareas_casa": [
+      "Ver videos de experimentos científicos y realizar la Fase 1 (Decodificación del fenómeno).",
+      "Resolver 2 preguntas tipo Saber 11 al día, entregando la justificación del descarte de los 3 distractores.",
+      "Identificar conceptos de física en situaciones cotidianas (ej. inercia al frenar un bus) y explicar el fenómeno."
+    ]
+  }
+}

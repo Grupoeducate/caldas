@@ -1,0 +1,109 @@
+{
+  "area_metadata": {
+    "nombre": "Inglés",
+    "codigo_area": "IN",
+    "enfoque": "Competencia Comunicativa (Lingüística, Pragmática y Sociolingüística)",
+    "peso_ponderado": 1
+  },
+  "analisis_estadistico": {
+    "historico_puntajes": [
+      { "periodo": "2023-4", "promedio": 50, "desviacion_estandar": 10 },
+      { "periodo": "2024-3", "promedio": 48, "desviacion_estandar": 9 },
+      { "periodo": "2025-3", "promedio": 49, "desviacion_estandar": 10 }
+    ],
+    "niveles_desempeno": [
+      { "año": "2023", "A_minus": 49, "A1": 27, "A2": 20, "B1": 3, "B_plus": 1 },
+      { "año": "2024", "A_minus": 54, "A1": 34, "A2": 8, "B1": 3, "B_plus": 0 },
+      { "año": "2025", "A_minus": 52, "A1": 30, "A2": 13, "B1": 4, "B_plus": 1 }
+    ]
+  },
+  "matriz_dofa_area": {
+    "fortalezas": [
+      "Ligera recuperación en los niveles A2 y B1 durante el año 2025 respecto al bache de 2024.",
+      "Reaparición de estudiantes en el nivel B+ (1%) en la última aplicación.",
+      "Desviación estándar muy controlada (9-10), lo que indica que el nivel de inglés es muy uniforme en toda la cohorte."
+    ],
+    "debilidades": [
+      "Concentración masiva en el nivel A- (52% en 2025). Más de la mitad de los estudiantes no alcanzan el nivel mínimo esperado (A1).",
+      "Puntaje promedio estancado por debajo de los 50 puntos.",
+      "Dificultad para transitar estudiantes del nivel A1 al A2, con una caída drástica detectada en 2024 que apenas comienza a recuperarse."
+    ],
+    "oportunidades": [
+      "Implementar la 'Práctica por Partes' de la ruta metodológica para que el estudiante no se abrume con la extensión de la prueba.",
+      "Enfocar el entrenamiento en las Partes 4 y 7 (Cloze) para fortalecer la gramática y el léxico, que son los conectores hacia el nivel A2.",
+      "Utilizar los 'Educatips' sugeridos para mejorar el descarte de opciones en la parte de avisos (Parte 2)."
+    ],
+    "amenazas": [
+      "Si el 52% de los estudiantes permanece en A-, la institución tendrá un techo muy bajo en su promedio global independientemente de las otras áreas.",
+      "El desinterés de los estudiantes por la lectura de textos largos (Partes 5 y 6) puede profundizar la brecha en competencia lectora en lengua extranjera."
+    ]
+  },
+  "ruta_metodologica": {
+    "titulo": "Ruta Metodológica Adaptada para Inglés: Enfoque por Tareas",
+    "objetivo_general": "Abordar cada parte de la prueba de Inglés con la estrategia adecuada, maximizando la comprensión y la precisión en la selección de la respuesta correcta según el tipo de tarea.",
+    "fases": [
+      {
+        "nombre": "Fase 1: ENTENDER LA TAREA (Understand the Task)",
+        "objetivo_pedagogico": "Identificar claramente qué pide la parte específica de la prueba y qué habilidad se está evaluando.",
+        "acciones_estudiante": [
+          "Identificar el tipo de tarea: ¿Es emparejar (Parte 1), ubicar un aviso (Parte 2), completar un diálogo (Parte 3) o responder preguntas de lectura (Partes 5 y 6)?",
+          "Leer instrucciones y ejemplos: Analizar el ejemplo marcado como (0) para entender la lógica de la respuesta correcta.",
+          "Identificar habilidad evaluada: Determinar si la prioridad es vocabulario, gramática o comprensión inferencial."
+        ],
+        "preguntas_orientadoras": {
+          "guia": ["¿Qué tengo que hacer exactamente en esta parte?", "¿Qué habilidad se está evaluando aquí (vocabulario, gramática, comprensión)?"]
+        }
+      },
+      {
+        "nombre": "Fase 2: ANALIZAR EL ESTÍMULO (Analyze the Input)",
+        "objetivo_pedagogico": "Aplicar estrategias de lectura focalizada según la sección de la prueba para extraer información clave.",
+        "acciones_estudiante": [
+          "Parte 1 (Vocabulario): Leer cada descripción buscando palabras clave y escanear las opciones (A-H).",
+          "Parte 2 (Avisos): Identificar el propósito del aviso y pensar en contextos probables (escuela, parque, tienda).",
+          "Parte 3 (Diálogos): Leer el diálogo completo para entender el contexto y el turno que falta.",
+          "Partes 4 y 7 (Cloze): Leer la oración alrededor del espacio en blanco para identificar si falta un verbo, sustantivo, preposición o conector.",
+          "Partes 5 y 6 (Lectura): Estrategia clave - Leer las preguntas PRIMERO. Luego, buscar información explícita (Parte 5) o implícita/general (Parte 6) en el texto."
+        ],
+        "preguntas_orientadoras": {
+          "guia": ["¿Qué información clave me da esta descripción/aviso/diálogo/texto?", "¿Qué necesito específicamente para completar o responder?"]
+        }
+      },
+      {
+        "nombre": "Fase 3: EVALUAR OPCIONES (Evaluate Options)",
+        "objetivo_pedagogico": "Comparar opciones de respuesta mediante estrategias de descarte gramatical, semántico y contextual.",
+        "acciones_estudiante": [
+          "Emparejamiento (Parte 1): Buscar la mejor coincidencia semántica entre descripción y opción.",
+          "Estrategias de Descarte: Preguntarse: ¿Es gramaticalmente incorrecta?, ¿No encaja en el contexto?, ¿El vocabulario es inadecuado?, ¿Contradice la información del texto?, ¿Es un contexto ilógico para el aviso?"
+        ],
+        "preguntas_orientadoras": {
+          "guia": ["¿Por qué la opción A podría ser correcta/incorrecta?", "¿Encaja esta palabra gramaticalmente?", "¿Tiene sentido esta respuesta en la conversación?", "¿El texto dice esto explícitamente?"]
+        }
+      },
+      {
+        "nombre": "Fase 4: SELECCIONAR Y CONFIRMAR (Select and Confirm)",
+        "objetivo_pedagogico": "Consolidar la elección final verificando la coherencia lógica y el sentido global de la respuesta.",
+        "acciones_estudiante": [
+          "Elegir la mejor opción: Seleccionar la que mejor completa la tarea o responde la pregunta.",
+          "Relectura de Verificación: Releer la frase, diálogo o pregunta con la opción seleccionada para verificar la coherencia.",
+          "Confianza en el proceso: Confiar en la intuición si se ha seguido un análisis lógico previo."
+        ],
+        "preguntas_orientadoras": {
+          "guia": ["¿Es esta la mejor opción disponible?", "¿Suena correcto o lógico al leerlo completo?"]
+        }
+      }
+    ]
+  },
+  "plan_mejoramiento_estrategico": {
+    "estrategias_aula": [
+      "Práctica por Partes: Entrenamiento enfocado en practicar intensivamente cada una de las 7 partes por separado.",
+      "Uso de Estrategias Explícitas: Enseñar activamente 'Educatips' para cada sección (ej. skimming y scanning).",
+      "Desarrollo de Habilidades Base: Sesiones diarias de refuerzo de vocabulario y gramática funcional.",
+      "Simulacros Completos: Realizar pruebas completas para entrenar el manejo del tiempo entre las diferentes partes."
+    ],
+    "tareas_casa": [
+      "Duolingo o apps similares enfocadas en gramática y vocabulario para niveles A1-A2.",
+      "Lectura de noticias cortas en inglés (BBC Learning English) para practicar la Fase 2.",
+      "Escuchar canciones y completar las letras (LyricsTraining) para fortalecer la parte de diálogos y gramática (Parte 3 y 4)."
+    ]
+  }
+}

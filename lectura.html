@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectura Crítica - Análisis por Evidencias | Grupo Edúcate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">📊 Dirección Pedagógica - Edúcate</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">General</a></li>
+                    <li class="nav-item"><a class="nav-link" href="matematicas.html">Matemáticas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="naturales.html">Naturales</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="lectura.html">Lectura</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sociales.html">Sociales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ingles.html">Inglés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <header class="mb-5 border-bottom border-primary border-3 pb-3 d-flex justify-content-between align-items-end">
+            <div>
+                <h1 class="text-primary fw-bold mb-0">Lectura Crítica: Informe Técnico-Estratégico</h1>
+                <p class="text-secondary mb-0">Análisis Basado en Evidencias y Desempeño Histórico (2023-2025)</p>
+            </div>
+            <div class="text-end small">
+                <strong>Realizado por:</strong><br>
+                Marlon Galvis Villa<br>
+                <span class="text-muted">Director de Pedagogía - Grupo Edúcate Colombia</span>
+            </div>
+        </header>
+
+        <!-- Visualización de Datos -->
+        <div class="row g-4 mb-5">
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-white fw-bold border-0 pt-3">Evolución de Puntaje Promedio y Dispersión</div>
+                    <div class="card-body"><canvas id="readingScoresChart"></canvas></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-white fw-bold border-0 pt-3">Categorización por Niveles de Desempeño</div>
+                    <div class="card-body"><canvas id="readingLevelsChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DOFA Especializado -->
+        <div class="card mb-5 border-0 shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold">Interpretación de Brechas Cognitivas (DOFA)</div>
+            <div class="card-body bg-light">
+                <div class="row">
+                    <div class="col-md-6 border-end border-primary">
+                        <h6 class="text-success fw-bold">Fortalezas Estratégicas</h6>
+                        <p class="small">La institución mantiene una <strong>estabilidad notable en la base lectora</strong>, logrando que el 88% de los estudiantes se ubiquen entre los niveles 2 y 3. La desviación estándar constante (10) refleja una <strong>homogeneidad en las competencias interpretativas básicas</strong>, lo que permite un despliegue uniforme de estrategias de comprensión global.</p>
+                        <h6 class="text-info fw-bold">Oportunidades de Mejora</h6>
+                        <p class="small">Existe un <strong>anclaje en el Nivel 2 (46%)</strong> que representa el "motor de crecimiento" del área. Con una intervención enfocada en la articulación de partes del texto y detección de estrategias discursivas, es posible migrar este bloque masivo hacia el Nivel 3, mejorando el promedio global.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-danger fw-bold">Debilidades Críticas</h6>
+                        <p class="small">Se observa una <strong>erosión en la excelencia (Nivel 4)</strong>, que ha caído del 11% al 8% en tres años. La debilidad más profunda radica en la <strong>Competencia Valorativa</strong>: el 59% de error en tareas de reflexión y evaluación evidencia que el estudiante lee el texto pero no cuestiona su validez ni identifica sesgos ideológicos.</p>
+                        <h6 class="text-warning fw-bold">Amenazas al Rendimiento</h6>
+                        <p class="small">Una <strong>meseta de rendimiento en 51 puntos</strong>. Si no se trasciende de la lectura literal a la lectura intertextual y crítica, el promedio se mantendrá estancado, limitando las posibilidades de los estudiantes en programas académicos que exigen alta capacidad analítica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Matriz de Aprendizajes y Evidencias -->
+        <div class="card mb-5 border-0 shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold">Matriz de Referencia: Aprendizajes y Evidencias Evaluadas (ICFES)</div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover mb-0 small">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Competencia</th>
+                                <th>Aprendizaje (¿Qué debe saber?)</th>
+                                <th>Evidencia (¿Cómo lo demuestra el ICFES?)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold">1. Identificar (Local)</td>
+                                <td>Entender los contenidos locales que conforman un texto.</td>
+                                <td>
+                                    • Identifica el sentido de una palabra o frase según el contexto.<br>
+                                    • Reconoce eventos, personajes o ideas explícitas.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">2. Comprender (Global)</td>
+                                <td>Comprender cómo se articulan las partes de un texto para darle sentido global.</td>
+                                <td>
+                                    • Identifica la estructura de un texto (argumentativo, narrativo, etc).<br>
+                                    • Resume la idea central y establece relaciones lógicas (causa-efecto).
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">3. Reflexionar (Crítico)</td>
+                                <td>Reflexionar a partir de un texto y evaluar su contenido.</td>
+                                <td>
+                                    • Identifica intenciones, sesgos y estrategias discursivas.<br>
+                                    • Evalúa la validez de los argumentos y la postura del autor.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ejercicio Modelo Ruta Metodológica -->
+        <div class="card mb-5 border-0 shadow">
+            <div class="card-header bg-secondary text-white fw-bold">Aplicación de la Ruta Metodológica: El Lector Crítico</div>
+            <div class="card-body bg-light">
+                <div class="p-4 border-start border-primary border-5 bg-white mb-4 rounded shadow-sm small">
+                    <strong>Texto Modelo:</strong> "La democracia no es solo un sistema de votación, es un ejercicio de vigilancia constante. Quien vota y se desentiende de lo público, entrega las llaves de su casa al ladrón y luego se queja del robo".<br>
+                    <strong>Pregunta:</strong> ¿Cuál es la intención principal de la analogía del "ladrón"?
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-primary fw-bold">1. Inmersión</h6>
+                            <p class="x-small"><strong>Tarea:</strong> Identificar intención comunicativa. <strong>Estímulo:</strong> Texto argumentativo corto sobre responsabilidad ciudadana.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-primary fw-bold">2. Conexión</h6>
+                            <p class="x-small"><strong>Pista:</strong> "Entrega las llaves... se queja del robo". <strong>Saberes:</strong> Uso de metáforas para enfatizar consecuencias de una acción.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-primary fw-bold">3. Evaluación</h6>
+                            <p class="x-small"><strong>Análisis:</strong> El ladrón representa al gobernante corrupto y las llaves la apatía. Descarta distractores que hablen de delincuencia común.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-primary fw-bold">4. Justificación</h6>
+                            <p class="x-small">La opción correcta debe resaltar la <strong>corresponsabilidad</strong> del ciudadano en el fracaso del sistema democrático.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Plan de Mejoramiento -->
+        <div class="card mb-5 border-0 shadow-sm border-top border-5 border-primary">
+            <div class="card-header bg-white fw-bold">Plan de Intervención Pedagógica de Alta Intensidad</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6 border-end">
+                        <h6 class="fw-bold text-primary mb-3">Estrategias de Aula (Docentes)</h6>
+                        <ul class="small lh-lg">
+                            <li><strong>Seminarios Socráticos:</strong> Discusión de columnas de opinión donde el objetivo sea identificar el "silencio del autor" (lo que no se dice).</li>
+                            <li><strong>Caza de Falacias:</strong> Ejercicios prácticos para detectar errores de razonamiento en discursos políticos o publicitarios.</li>
+                            <li><strong>Lectura Intertextual:</strong> Comparar dos textos sobre el mismo tema con posturas opuestas para fortalecer la Fase 3 (Evaluación).</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="fw-bold text-primary mb-3">Sugerencias para el Hogar (Tareas)</h6>
+                        <ul class="small lh-lg">
+                            <li><strong>Bitácora de Posturas:</strong> Leer un editorial a la semana y escribir en tres líneas: 1. Tesis, 2. Argumento principal, 3. Posible sesgo del autor.</li>
+                            <li><strong>Lectura de Infografías:</strong> Analizar gráficos de redes sociales aplicando la Fase 1 (¿Qué me quiere convencer este gráfico?).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-1 fw-bold">Marlon Galvis Villa</p>
+            <p class="mb-0 text-secondary small">Director de pedagogía - Grupo Edúcate Colombia</p>
+            <p class="mt-3 x-small text-muted">© 2026 - Informe Reservado para I.E. Francisco José de Caldas</p>
+        </div>
+    </footer>
+
+    <script>
+        Chart.register(ChartDataLabels);
+        const commonOptions = {
+            plugins: {
+                datalabels: { color: 'white', font: { weight: 'bold', size: 11 }, anchor: 'center', align: 'center' },
+                legend: { position: 'bottom' }
+            }
+        };
+
+        new Chart(document.getElementById('readingScoresChart'), {
+            type: 'bar',
+            data: {
+                labels: ['2023-4', '2024-3', '2025-3'],
+                datasets: [
+                    { label: 'Puntaje Promedio', data: [53, 51, 51], backgroundColor: '#1e3a8a' },
+                    { label: 'Desviación Estándar', data: [10, 10, 10], backgroundColor: '#94a3b8' }
+                ]
+            },
+            options: commonOptions
+        });
+
+        new Chart(document.getElementById('readingLevelsChart'), {
+            type: 'bar',
+            data: {
+                labels: ['2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Nivel 1', data: [4, 5, 3], backgroundColor: '#ef4444' },
+                    { label: 'Nivel 2', data: [41, 43, 46], backgroundColor: '#f97316' },
+                    { label: 'Nivel 3', data: [44, 42, 42], backgroundColor: '#3b82f6' },
+                    { label: 'Nivel 4', data: [11, 10, 8], backgroundColor: '#22c55e' }
+                ]
+            },
+            options: { ...commonOptions, scales: { x: { stacked: true }, y: { stacked: true, max: 100 } } }
+        });
+    </script>
+</body>
+</html>

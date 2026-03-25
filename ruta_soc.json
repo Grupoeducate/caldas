@@ -1,0 +1,150 @@
+{
+  "area_metadata": {
+    "nombre": "Sociales y Ciudadanas",
+    "codigo_area": "SC",
+    "enfoque": "Pensamiento Social, Interpretación de Fuentes y Pensamiento Reflexivo",
+    "peso_ponderado": 3
+  },
+  "analisis_estadistico": {
+    "historico_puntajes": [
+      { "periodo": "2023-4", "promedio": 47, "desviacion_estandar": 11 },
+      { "periodo": "2024-3", "promedio": 44, "desviacion_estandar": 11 },
+      { "periodo": "2025-3", "promedio": 44, "desviacion_estandar": 11 }
+    ],
+    "niveles_desempeno": [
+      { "año": "2023", "nivel_1": 32, "nivel_2": 46, "nivel_3": 19, "nivel_4": 3 },
+      { "año": "2024", "nivel_1": 44, "nivel_2": 41, "nivel_3": 15, "nivel_4": 0 },
+      { "año": "2025", "nivel_1": 43, "nivel_2": 42, "nivel_3": 13, "nivel_4": 1 }
+    ],
+    "porcentaje_incorrectas_ee": [
+      {
+        "aprendizaje": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas",
+        "porcentaje_error": 68,
+        "referencia_colombia": 68
+      },
+      {
+        "aprendizaje": "Evalúa usos sociales de las ciencias sociales",
+        "porcentaje_error": 65,
+        "referencia_colombia": 57
+      },
+      {
+        "aprendizaje": "Contextualiza y evalúa usos de fuentes y argumentos",
+        "porcentaje_error": 59,
+        "referencia_colombia": 52
+      },
+      {
+        "aprendizaje": "Comprende perspectivas de distintos actores y grupos sociales",
+        "porcentaje_error": 58,
+        "referencia_colombia": 50
+      }
+    ]
+  },
+  "matriz_dofa_area": {
+    "fortalezas": [
+      "La desviación estándar se mantiene baja (11), lo que facilita la intervención pedagógica masiva al tener un grupo con dificultades muy similares.",
+      "A pesar de la caída general, se recuperó la presencia en el Nivel 4 (1%) en 2025, tras haber desaparecido en 2024."
+    ],
+    "debilidades": [
+      "Aumento crítico del Nivel 1: pasó del 32% en 2023 al 43% en 2025. Casi la mitad de los estudiantes no logran identificar conceptos básicos.",
+      "Caída sistemática del Nivel 3 (de 19% a 13%), lo que indica una pérdida de competencia en el análisis de perspectivas.",
+      "Alto índice de error (68%) en la comprensión de dimensiones de problemas sociales, dificultando el pensamiento sistémico."
+    ],
+    "oportunidades": [
+      "Implementar la fase de 'Decodificación' de la Ruta Maestra para frenar el crecimiento del Nivel 1.",
+      "Focalizar el uso de mapas y diagramas (estímulos no textuales) para mejorar la comprensión de dimensiones espaciales y temporales.",
+      "Utilizar la paridad con el promedio nacional en 'Problemas y Soluciones' (68%) como base para un crecimiento conjunto."
+    ],
+    "amenazas": [
+      "El promedio de 44 puntos es uno de los más bajos de la institución, poniendo en riesgo el puntaje global.",
+      "Si persiste el 43% en Nivel 1, la institución tendrá dificultades en los rankings de calidad educativa departamental.",
+      "Brecha de 7 puntos de error adicionales frente al país en la evaluación de usos sociales y fuentes."
+    ]
+  },
+  "ruta_metodologica": {
+    "titulo": "Ruta Maestra Saber 11: 4 Fases para Sociales y Ciudadanas",
+    "objetivo_general": "Guiar al estudiante en un proceso sistemático y consciente para asegurar la comprensión del ítem, la conexión con el conocimiento relevante (Constitución, Historia, Geografía), el análisis crítico de las opciones y la selección de la respuesta mejor sustentada.",
+    "fases": [
+      {
+        "nombre": "Fase 1: DECODIFICACIÓN (Entender el Reto: Estímulo y Pregunta)",
+        "objetivo_pedagogico": "Asegurar que el estudiante comprenda a cabalidad el contexto social presentado y la tarea específica solicitada.",
+        "acciones_estudiante": [
+          "Exploración Activa del Estímulo: Leer atentamente el texto o describir la situación/problema. En sociales, prestar especial atención a mapas, caricaturas o tablas de datos demográficos.",
+          "Disección de la Pregunta: Identificar la Tarea Central (¿Me piden evaluar, comparar o inferir?) y el Foco Específico (¿Es sobre derechos, economía o geografía?).",
+          "Palabras y Datos Clave: Subrayar conceptos como 'Estado Social de Derecho', 'Mecanismos de participación', 'Globalización' o restricciones temporales."
+        ],
+        "guia_docente": [
+          "Modelar el abordaje de estímulos situacionales (casos de conflicto ciudadana).",
+          "Enfatizar la lectura detallada para evitar responder desde la opinión personal y no desde el estímulo."
+        ],
+        "preguntas_orientadoras": {
+          "estimulo": ["¿Qué nos muestra esta situación?", "¿Cuál es el tema principal aquí?", "¿Qué tipo de actores intervienen?"],
+          "pregunta": ["¿Qué es exactamente lo que tienes que decidir?", "¿Qué palabras te dan la pista clave?", "¿Hay alguna condición importante (ej. según la Constitución)?"]
+        }
+      },
+      {
+        "nombre": "Fase 2: CONEXIÓN Y ESTRATEGIA (Activar Saberes y Planificar)",
+        "objetivo_pedagogico": "Ayudar al estudiante a conectar la pregunta con sus conocimientos previos de marcos sociales, históricos y éticos.",
+        "acciones_estudiante": [
+          "Localizar Evidencia/Pistas: Volver al estímulo y ubicar la frase o dato que se relaciona directamente con el conflicto o problema.",
+          "Activar Conocimiento Relevante: ¿Qué conceptos (multiperspectivismo, prejuicio, brecha económica) necesito aplicar aquí?",
+          "Identificar Tipo de Razonamiento: Determinar si la pregunta requiere una inferencia causa-efecto o si implica evaluar la validez de un argumento social.",
+          "Definir la Estrategia: ¿Cuál es el plan? (Ej: analizar la perspectiva del Actor A frente al Actor B)."
+        ],
+        "guia_docente": [
+          "Enseñar explícitamente a buscar la evidencia pertinente en el texto social.",
+          "Ayudar a conectar la pregunta con los mecanismos de protección de derechos o principios democráticos."
+        ],
+        "preguntas_orientadoras": {
+          "conexion": ["¿Dónde está la clave en el texto para responder?", "¿Qué concepto que aprendiste se aplica aquí?"],
+          "estrategia": ["¿Cómo vas a proceder para encontrar la respuesta?", "¿Qué pasos seguirás para analizar las perspectivas?"]
+        }
+      },
+      {
+        "nombre": "Fase 3: EJECUCIÓN Y EVALUACIÓN (Resolver y Analizar Opciones)",
+        "objetivo_pedagogico": "Desarrollar el pensamiento crítico mediante el análisis riguroso de las opciones, fundamentando el descarte de los distractores.",
+        "acciones_estudiante": [
+          "Ejecutar el Plan: Aplicar el razonamiento lógico social definido en la Fase 2.",
+          "Análisis Crítico de Opciones: Leer A, B, C y D buscando coherencia con el estímulo.",
+          "Descarte Fundamentado: Identificar errores conceptuales (ej. confundir poder legislativo con judicial), errores de interpretación (entender mal el mapa) o irrelevancia (opciones correctas pero que no responden la pregunta)."
+        ],
+        "guia_docente": [
+          "Modelar la ejecución del análisis de opciones.",
+          "Exigir la justificación del descarte: 'Dime por qué la opción A NO es la correcta en este contexto social'."
+        ],
+        "preguntas_orientadoras": {
+          "ejecucion": ["¿Cómo llegaste a esa conclusión?", "¿Qué evidencia soporta la opción A?"],
+          "distractores": ["¿Por qué esta opción parece correcta pero no lo es?", "¿En qué se equivoca esta afirmación según el principio científico/social?"]
+        }
+      },
+      {
+        "nombre": "Fase 4: VALIDACIÓN Y SELECCIÓN (Asegurar y Elegir la Mejor)",
+        "objetivo_pedagogico": "Consolidar la elección final, asegurando que sea la respuesta más adecuada, precisa y mejor sustentada.",
+        "acciones_estudiante": [
+          "Verificar Coherencia Final: ¿La opción elegida responde directamente al conflicto planteado en la Fase 1?",
+          "Evaluar Razonabilidad: ¿La explicación tiene sentido lógico y ético en el contexto del problema?",
+          "Seleccionar con Confianza: Entender por qué la respuesta elegida es superior a las demás distractores."
+        ],
+        "guia_docente": [
+          "Recalcar el concepto de 'mejor respuesta' (la más completa y alineada con la evidencia).",
+          "Fomentar una revisión final rápida para detectar descuidos en la interpretación de la intención del autor."
+        ],
+        "preguntas_orientadoras": {
+          "validacion": ["¿Estás seguro de que esta es la MEJOR respuesta?", "¿Tu justificación es sólida?"],
+          "cierre": ["¿Podrías explicarle a un compañero por qué esta es la respuesta correcta?"]
+        }
+      }
+    ]
+  },
+  "plan_mejoramiento_estrategico": {
+    "estrategias_aula": [
+      "Debates sobre noticias actuales aplicando la Fase 2: Identificar conceptos sociales involucrados.",
+      "Talleres de 'Juicio a los Distractores' donde el estudiante debe clasificar el error (Conceptual, Irrelevancia, Incoherencia).",
+      "Uso de la Constitución Política para resolver casos de vulneración de derechos simulados."
+    ],
+    "tareas_casa": [
+      "Identificar en un noticiero dos perspectivas diferentes sobre un mismo hecho social (Multiperspectivismo).",
+      "Realizar mapas conceptuales sobre las funciones de las ramas del poder público.",
+      "Analizar una caricatura política semanal aplicando la Fase 1 (Decodificación del estímulo visual)."
+    ]
+  }
+}

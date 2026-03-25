@@ -1,0 +1,60 @@
+{
+  "areas": [
+    {
+      "nombre": "Matemáticas",
+      "enfoque_prioritario": true,
+      "resultados": [
+        { "año": "2023", "puntaje": 50, "desviacion": 12, "niveles": [11, 45, 39, 5] },
+        { "año": "2024", "puntaje": 48, "desviacion": 11, "niveles": [15, 45, 37, 3] },
+        { "año": "2025", "puntaje": 51, "desviacion": 11, "niveles": [7, 43, 46, 4] }
+      ],
+      "aprendizajes_criticos": [
+        { "descripcion": "Valida procedimientos y estrategias matemáticas para dar solución a problemas", "incorrectas_ee": 64 },
+        { "descripcion": "Frente a un problema que involucre información cuantitativa, plantea estrategias", "incorrectas_ee": 50 }
+      ]
+    },
+    {
+      "nombre": "Ciencias Naturales",
+      "enfoque_prioritario": true,
+      "resultados": [
+        { "año": "2023", "puntaje": 50, "desviacion": 9, "niveles": [18, 56, 23, 2] },
+        { "año": "2024", "puntaje": 48, "desviacion": 9, "niveles": [20, 59, 19, 2] },
+        { "año": "2025", "puntaje": 49, "desviacion": 10, "niveles": [22, 47, 29, 3] }
+      ],
+      "aprendizajes_criticos": [
+        { "descripcion": "Comprender que a partir de la investigación científica se construyen explicaciones (Física)", "incorrectas_ee": 72 },
+        { "descripcion": "Identificar las características de algunos fenómenos (Vivos)", "incorrectas_ee": 62 }
+      ]
+    },
+    {
+      "nombre": "Lectura Crítica",
+      "resultados": [
+        { "año": "2023", "puntaje": 53, "desviacion": 10, "niveles": [4, 41, 44, 11] },
+        { "año": "2024", "puntaje": 51, "desviacion": 10, "niveles": [5, 43, 42, 10] },
+        { "año": "2025", "puntaje": 51, "desviacion": 10, "niveles": [3, 46, 42, 8] }
+      ],
+      "aprendizajes_criticos": [
+        { "descripcion": "Reflexiona a partir de un texto y evalúa su contenido", "incorrectas_ee": 59 }
+      ]
+    },
+    {
+      "nombre": "Sociales y Ciudadanas",
+      "resultados": [
+        { "año": "2023", "puntaje": 47, "desviacion": 11, "niveles": [32, 46, 19, 3] },
+        { "año": "2024", "puntaje": 44, "desviacion": 11, "niveles": [44, 41, 15, 0] },
+        { "año": "2025", "puntaje": 44, "desviacion": 11, "niveles": [43, 42, 13, 1] }
+      ],
+      "aprendizajes_criticos": [
+        { "descripcion": "Relación entre problemas y soluciones involucrando dimensiones", "incorrectas_ee": 68 }
+      ]
+    },
+    {
+      "nombre": "Inglés",
+      "resultados": [
+        { "año": "2023", "puntaje": 50, "desviacion": 10, "niveles": [49, 27, 20, 3, 1] },
+        { "año": "2024", "puntaje": 48, "desviacion": 9, "niveles": [54, 34, 8, 3, 0] },
+        { "año": "2025", "puntaje": 49, "desviacion": 10, "niveles": [52, 30, 13, 4, 1] }
+      ]
+    }
+  ]
+}

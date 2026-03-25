@@ -1,0 +1,143 @@
+{
+  "area_metadata": {
+    "nombre": "Lectura Crítica",
+    "codigo_area": "LC",
+    "enfoque": "Competencia Lectora (Identificar, Comprender y Reflexionar)",
+    "peso_ponderado": 3
+  },
+  "analisis_estadistico": {
+    "historico_puntajes": [
+      { "periodo": "2023-4", "promedio": 53, "desviacion_estandar": 10 },
+      { "periodo": "2024-3", "promedio": 51, "desviacion_estandar": 10 },
+      { "periodo": "2025-3", "promedio": 51, "desviacion_estandar": 10 }
+    ],
+    "niveles_desempeno": [
+      { "año": "2023", "nivel_1": 4, "nivel_2": 41, "nivel_3": 44, "nivel_4": 11 },
+      { "año": "2024", "nivel_1": 5, "nivel_2": 43, "nivel_3": 42, "nivel_4": 10 },
+      { "año": "2025", "nivel_1": 3, "nivel_2": 46, "nivel_3": 42, "nivel_4": 8 }
+    ],
+    "porcentaje_incorrectas_ee": [
+      {
+        "aprendizaje": "Identifica y entiende los contenidos locales que conforman un texto",
+        "porcentaje_error": 38,
+        "referencia_colombia": 33
+      },
+      {
+        "aprendizaje": "Comprende cómo se articulan las partes de un texto para darle un sentido global",
+        "porcentaje_error": 50,
+        "referencia_colombia": 44
+      },
+      {
+        "aprendizaje": "Reflexiona a partir de un texto y evalúa su contenido",
+        "porcentaje_error": 59,
+        "referencia_colombia": 51
+      }
+    ]
+  },
+  "matriz_dofa_area": {
+    "fortalezas": [
+      "Mínimo porcentaje de estudiantes en Nivel 1 (solo 3% en 2025), lo que indica una base de lectura funcional sólida.",
+      "Consolidación del Nivel 2 (46%), mostrando que la gran mayoría identifica información explícita.",
+      "Desviación estándar estable (10), indicando un grupo con habilidades de lectura muy homogéneas."
+    ],
+    "debilidades": [
+      "Tendencia decreciente en el Nivel 4, pasando del 11% al 8% en tres años.",
+      "Dificultad crítica en el aprendizaje de 'Reflexión y Evaluación' con un 59% de respuestas incorrectas.",
+      "El promedio institucional (51) se encuentra 4 puntos por debajo del promedio nacional (55)."
+    ],
+    "oportunidades": [
+      "La reducción del Nivel 1 permite enfocar los esfuerzos en mover estudiantes del Nivel 2 al Nivel 3.",
+      "Implementar la fase de 'Justificación y Selección' de la ruta metodológica para atacar el error en preguntas de juicio crítico.",
+      "Utilizar textos discontinuos (infografías/tablas) para mejorar la articulación de partes del texto."
+    ],
+    "amenazas": [
+      "El estancamiento del promedio en 51 puntos durante los últimos dos años.",
+      "Brecha de 8 puntos porcentuales de error por encima de la media nacional en lectura crítica/evaluativa.",
+      "Riesgo de desmotivación en los estudiantes de alto rendimiento ante la caída sistemática del Nivel 4."
+    ]
+  },
+  "ruta_metodologica": {
+    "titulo": "Las 4 Fases del Lector Crítico (Saber 11)",
+    "objetivo_general": "Que el estudiante aborde sistemáticamente cualquier ítem de Lectura Crítica, identificando la tarea, conectando con el texto, evaluando opciones con base en evidencia y seleccionando la respuesta más adecuada.",
+    "fases": [
+      {
+        "nombre": "Fase 1: INMERSIÓN (Comprender Texto y Tarea)",
+        "objetivo_pedagogico": "Asegurar la comprensión básica del estímulo (texto, gráfico, etc.) y la demanda específica de la pregunta.",
+        "acciones_estudiante": [
+          "Lectura Activa del Estímulo: Leer el texto completo o analizar detenidamente el gráfico/imagen/tabla para captar la idea general, el tema y la estructura básica. Identificar el tipo de estímulo.",
+          "Lectura Precisa de la Pregunta: Leer atentamente el enunciado. Identificar: 1. Verbo Clave (¿Qué acción mental se solicita: inferir, evaluar, relacionar?), 2. Objeto de la pregunta (palabra, frase, idea global, postura del autor), 3. Palabras Clave (términos que establecen restricciones)."
+        ],
+        "guia_docente": [
+          "Modelar cómo realizar una lectura global rápida y luego una lectura detallada y analítica de la pregunta.",
+          "Utilizar Preguntas Orientadoras (PO) para focalizar la atención."
+        ],
+        "preguntas_orientadoras": {
+          "estimulo": ["¿De qué trata esto en general?", "¿Qué tipo de información nos presenta?", "¿Cómo está organizada?"],
+          "pregunta": ["¿Qué te pide hacer la pregunta exactamente?", "¿Qué palabra clave te indica la acción principal?", "¿Sobre qué parte específica del estímulo debes centrarte?"]
+        }
+      },
+      {
+        "nombre": "Fase 2: CONEXIÓN (Vincular Pregunta con Estímulo y Competencia)",
+        "objetivo_pedagogico": "Enseñar al estudiante a localizar la información o las pistas relevantes dentro del estímulo y a reconocer la habilidad lectora requerida.",
+        "acciones_estudiante": [
+          "Localizar Información/Pistas Relevantes: Volver al estímulo y ubicar secciones, frases o elementos visuales que se relacionan directamente con la pregunta.",
+          "Identificar Tipo de Razonamiento Requerido: Determinar si la respuesta es explícita (literal), si requiere deducir/inferir, si debe analizar conexiones estructurales o si debe evaluar la validez de una idea o postura del autor."
+        ],
+        "guia_docente": [
+          "Enseñar técnicas de rastreo, localización de información clave y relectura focalizada.",
+          "Ayudar a reconocer cuándo una pregunta demanda respuesta literal, inferencial o crítica-evaluativa."
+        ],
+        "preguntas_orientadoras": {
+          "conexion": ["¿En qué parte del estímulo encuentras la pista para responder?", "¿Esta información contesta directamente lo que te preguntaron?", "¿La respuesta está escrita tal cual o tienes que deducirla?", "¿Qué habilidad lectora necesitas usar aquí?"]
+        }
+      },
+      {
+        "nombre": "Fase 3: EVALUACIÓN (Analizar Opciones y Distractores)",
+        "objetivo_pedagogico": "Desarrollar el pensamiento crítico mediante el análisis riguroso de cada opción de respuesta, identificando y descartando distractores.",
+        "acciones_estudiante": [
+          "Análisis Individual: Leer cuidadosamente las opciones A, B, C y D.",
+          "Verificar Pertinencia: ¿Esta opción responde exactamente a lo que se preguntó en la Fase 1? (Evitar opciones verdaderas pero irrelevantes).",
+          "Buscar Sustento: ¿Esta opción se apoya directamente en las pistas localizadas en la Fase 2?",
+          "Análisis de Distractores: Identificar por qué una opción es incorrecta (¿Contradice el texto?, ¿Es exagerada?, ¿Es una opinión personal?, ¿Usa información del texto pero la aplica mal?)."
+        ],
+        "guia_docente": [
+          "Modelar el análisis sistemático comparando activamente la opción con el texto y la pregunta.",
+          "Enseñar explícitamente los tipos comunes de distractores en pruebas de lectura.",
+          "Fomentar la justificación verbal de por qué se descarta cada opción."
+        ],
+        "preguntas_orientadoras": {
+          "evaluacion": ["¿Por qué crees que la opción A es correcta/incorrecta?", "¿Dónde en el estímulo encuentras apoyo para la opción B?", "¿Qué hace que la opción C sea incorrecta según el texto?", "¿Esta opción responde exactamente a lo que se preguntó?"]
+        }
+      },
+      {
+        "nombre": "Fase 4: JUSTIFICACIÓN Y SELECCIÓN (Validar y Elegir)",
+        "objetivo_pedagogico": "Consolidar la elección final, asegurando que sea la respuesta más adecuada y mejor sustentada por la evidencia.",
+        "acciones_estudiante": [
+          "Comparar Opciones Finalistas: Si hay duda entre dos, determinar cuál está mejor sustentada, cuál es más precisa y cuál es más completa.",
+          "Verificación de Coherencia: Releer pregunta y opción elegida una última vez buscando conexión lógica clara.",
+          "Seleccionar con Confianza: Marcar la opción una vez verificada la solidez de la evidencia."
+        ],
+        "guia_docente": [
+          "Enfatizar que se busca la 'mejor' respuesta entre las dadas.",
+          "Promover el hábito de revisión rápida de la tríada Pregunta-Respuesta-Evidencia."
+        ],
+        "preguntas_orientadoras": {
+          "seleccion": ["Entre las opciones que quedan, ¿cuál tiene la evidencia más fuerte?", "¿Puedes explicar por qué elegiste esta opción basándote en el estímulo?", "¿Estás seguro de que esta opción es objetivamente mejor que las otras?"]
+        }
+      }
+    ]
+  },
+  "implementacion_pedagogica_sugerida": {
+    "aula": [
+      "Modelado Explícito: El docente debe aplicar las 4 fases en voz alta con ejemplos variados.",
+      "Práctica Colaborativa: Trabajo en parejas para discutir y justificar la aplicación de las fases.",
+      "Retroalimentación Centrada en el Proceso: Corregir no solo el acierto, sino CÓMO el estudiante aplicó la ruta.",
+      "Metacognición: Reflexión sobre qué fase resulta más difícil y en qué tipo de textos se cometen más errores."
+    ],
+    "casa": [
+      "Lectura diaria de editoriales de periódicos aplicando la Fase 1 (Identificar postura del autor).",
+      "Ejercicios de parafraseo de columnas de opinión para fortalecer la Fase 2.",
+      "Análisis de infografías en redes sociales para practicar la lectura de textos discontinuos."
+    ]
+  }
+}

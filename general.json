@@ -1,0 +1,12 @@
+{
+  "institucion": "I.E. FRANCISCO JOSÉ DE CALDAS",
+  "codigo_dane": "170215000055",
+  "municipio": "COROZAL - SUCRE",
+  "sector": "Oficial - Urbano",
+  "historico_global": [
+    { "año": "2023-4", "promedio": 248, "desviacion": 47, "evaluados": 158 },
+    { "año": "2024-3", "promedio": 239, "desviacion": 44, "evaluados": 145 },
+    { "año": "2025-3", "promedio": 244, "desviacion": 47, "evaluados": 161 }
+  ],
+  "formula_ponderado": "((Lectura*3)+(Mate*3)+(Sociales*3)+(Naturales*3)+(Ingles*1))/13 * 5"
+}
