@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencias Naturales - Análisis por Evidencias | Grupo Edúcate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">📊 Dirección Pedagógica - Edúcate</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">General</a></li>
+                    <li class="nav-item"><a class="nav-link" href="matematicas.html">Matemáticas</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="naturales.html">Naturales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lectura.html">Lectura</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sociales.html">Sociales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ingles.html">Inglés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <header class="mb-5 border-bottom border-success border-3 pb-3 d-flex justify-content-between align-items-end">
+            <div>
+                <h1 class="text-success fw-bold mb-0">Ciencias Naturales: Análisis Técnico-Científico</h1>
+                <p class="text-secondary mb-0">Evaluación por Evidencias y Componentes (2023-2025)</p>
+            </div>
+            <div class="text-end small">
+                <strong>Realizado por:</strong><br>
+                Marlon Galvis Villa<br>
+                <span class="text-muted">Director de Pedagogía - Grupo Edúcate Colombia</span>
+            </div>
+        </header>
+
+        <!-- Visualización de Datos -->
+        <div class="row g-4 mb-5">
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-white fw-bold border-0 pt-3">Desempeño por Puntaje y Dispersión (EE)</div>
+                    <div class="card-body"><canvas id="scienceScoresChart"></canvas></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-white fw-bold border-0 pt-3">Distribución de Niveles (Tendencia al Nivel 1)</div>
+                    <div class="card-body"><canvas id="scienceLevelsChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DOFA Especializado -->
+        <div class="card mb-5 border-0 shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold">Análisis Táctico de Competencias Científicas (DOFA)</div>
+            <div class="card-body bg-light">
+                <div class="row">
+                    <div class="col-md-6 border-end border-success">
+                        <h6 class="text-success fw-bold">Fortalezas Estratégicas</h6>
+                        <p class="small">Se observa una <strong>maduración de la competencia de Indagación</strong>, reflejada en el aumento del Nivel 3 (29%) y Nivel 4 (3%) en 2025. Un grupo significativo de estudiantes ya logra relacionar variables independientes y dependientes para validar hipótesis experimentales.</p>
+                        <h6 class="text-info fw-bold">Oportunidades de Mejora</h6>
+                        <p class="small">La estabilidad de la desviación (10) permite implementar una <strong>estrategia de unificación conceptual</strong> en procesos químicos y vivos, donde la brecha de error es menor comparada con la física, permitiendo una base de puntos "segura" para el promedio global.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-danger fw-bold">Debilidades Críticas (FOCO DE INTERVENCIÓN)</h6>
+                        <p class="small">Existe una <strong>brecha cognitiva alarmante en el componente físico</strong>: el 72% de los estudiantes fallan en la construcción de explicaciones científicas. Asimismo, el aumento sistemático del Nivel 1 (del 18% al 22%) indica que la cuarta parte del estudiantado no reconoce conceptos fundamentales de la naturaleza.</p>
+                        <h6 class="text-warning fw-bold">Amenazas al Rendimiento</h6>
+                        <p class="small">La <strong>desconexión entre el modelo teórico y el fenómeno</strong>. Si no se interviene el área de física con experimentación práctica, el Nivel 1 seguirá canibalizando al Nivel 2, estancando el promedio institucional por debajo de los 50 puntos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Matriz de Aprendizajes y Evidencias -->
+        <div class="card mb-5 border-0 shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold">Matriz de Referencia: Aprendizajes y Evidencias Evaluadas (ICFES)</div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover mb-0 small">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Competencia</th>
+                                <th>Aprendizaje (¿Qué debe saber?)</th>
+                                <th>Evidencia (¿Cómo lo demuestra el ICFES?)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold">Uso del Conocimiento</td>
+                                <td>Asociar fenómenos naturales con conceptos propios del conocimiento científico.</td>
+                                <td>• Identifica propiedades de la materia (química).<br>• Relaciona leyes de la termodinámica con sistemas biológicos.</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Explicación de Fenómenos</td>
+                                <td>Modelar fenómenos de la naturaleza basado en el análisis de variables.</td>
+                                <td>• Explica cambios de estado o movimientos (física).<br>• Argumenta la validez de una conclusión científica.</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Indagación</td>
+                                <td>Utilizar algunas habilidades de pensamiento y de procedimiento para evaluar predicciones.</td>
+                                <td>• Identifica variables en un diseño experimental.<br>• Interpreta tablas y gráficas de resultados experimentales.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ejercicio Modelo Ruta Metodológica -->
+        <div class="card mb-5 border-0 shadow">
+            <div class="card-header bg-secondary text-white fw-bold">Aplicación de la Ruta del Explorador Científico</div>
+            <div class="card-body bg-light">
+                <div class="p-4 border-start border-success border-5 bg-white mb-4 rounded shadow-sm small">
+                    <strong>Ítem de Análisis:</strong> En un experimento se calienta agua en un recipiente cerrado. Se observa que al aumentar la temperatura a 100°C, la presión interna aumenta significativamente.<br>
+                    <strong>Pregunta:</strong> ¿Cuál de las siguientes leyes físicas explica mejor este fenómeno?
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-success fw-bold">1. Decodificación</h6>
+                            <p class="x-small"><strong>Tarea:</strong> Identificar ley física. <strong>Variables:</strong> Temperatura (T) y Presión (P). Sistema: Gas ideal/Vapor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-success fw-bold">2. Conexión</h6>
+                            <p class="x-small"><strong>Saberes:</strong> Leyes de los gases (Gay-Lussac). Relación P y T en volumen constante (recipiente cerrado).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-success fw-bold">3. Evaluación</h6>
+                            <p class="x-small"><strong>Análisis:</strong> Aumentar T incrementa la energía cinética y las colisiones (P). Descarta Boyle (V constante).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-success fw-bold">4. Validación</h6>
+                            <p class="x-small">La respuesta es coherente con el modelo de la <strong>teoría cinética de los gases</strong> y los datos del estímulo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Plan de Mejoramiento -->
+        <div class="card mb-5 border-0 shadow-sm border-top border-5 border-success">
+            <div class="card-header bg-white fw-bold">Plan de Intervención Pedagógica de Alto Impacto</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6 border-end">
+                        <h6 class="fw-bold text-success mb-3">Estrategias de Aula (Docentes)</h6>
+                        <ul class="small lh-lg">
+                            <li><strong>Laboratorio de Variables:</strong> Realizar prácticas donde el único objetivo sea identificar qué variable se cambió y cuál se midió (Indagación).</li>
+                            <li><strong>Modelado Transversal:</strong> Aplicar las 4 fases en problemas de componentes Físicos, Químicos y Vivos por igual en cada clase.</li>
+                            <li><strong>Retroalimentación de Errores:</strong> Analizar por qué el 72% falla en Física, enfocándose en la lectura de diagramas de fuerzas y circuitos.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="fw-bold text-success mb-3">Sugerencias para el Hogar (Tareas)</h6>
+                        <ul class="small lh-lg">
+                            <li><strong>Explicación de Fenómenos Cotidianos:</strong> El estudiante debe observar un fenómeno en casa (ej. dilatación de objetos por calor) y explicarlo bajo la Fase 2 (Conexión Científica).</li>
+                            <li><strong>Simuladores Digitales:</strong> Uso de plataformas como <em>PhET Interactive Simulations</em> para visualizar procesos de física y química invisibles al ojo humano.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-1 fw-bold">Marlon Galvis Villa</p>
+            <p class="mb-0 text-secondary small">Director de pedagogía - Grupo Edúcate Colombia</p>
+            <p class="mt-3 x-small text-muted">© 2026 - Informe Reservado para I.E. Francisco José de Caldas</p>
+        </div>
+    </footer>
+
+    <script>
+        Chart.register(ChartDataLabels);
+        const commonOptions = {
+            plugins: {
+                datalabels: { color: 'white', font: { weight: 'bold', size: 11 }, anchor: 'center', align: 'center' },
+                legend: { position: 'bottom' }
+            }
+        };
+
+        new Chart(document.getElementById('scienceScoresChart'), {
+            type: 'bar',
+            data: {
+                labels: ['2023-4', '2024-3', '2025-3'],
+                datasets: [
+                    { label: 'Puntaje Promedio', data: [50, 48, 49], backgroundColor: '#10b981' },
+                    { label: 'Desviación Estándar', data: [9, 9, 10], backgroundColor: '#94a3b8' }
+                ]
+            },
+            options: commonOptions
+        });
+
+        new Chart(document.getElementById('scienceLevelsChart'), {
+            type: 'bar',
+            data: {
+                labels: ['2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Nivel 1', data: [18, 20, 22], backgroundColor: '#ef4444' },
+                    { label: 'Nivel 2', data: [56, 59, 47], backgroundColor: '#f97316' },
+                    { label: 'Nivel 3', data: [23, 19, 29], backgroundColor: '#3b82f6' },
+                    { label: 'Nivel 4', data: [2, 2, 3], backgroundColor: '#22c55e' }
+                ]
+            },
+            options: { ...commonOptions, scales: { x: { stacked: true }, y: { stacked: true, max: 100 } } }
+        });
+    </script>
+</body>
+</html>

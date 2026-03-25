@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociales y Ciudadanas - Análisis por Evidencias | Grupo Edúcate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">📊 Dirección Pedagógica - Edúcate</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">General</a></li>
+                    <li class="nav-item"><a class="nav-link" href="matematicas.html">Matemáticas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="naturales.html">Naturales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lectura.html">Lectura</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="sociales.html">Sociales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ingles.html">Inglés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <header class="mb-5 border-bottom border-danger border-3 pb-3 d-flex justify-content-between align-items-end">
+            <div>
+                <h1 class="text-danger fw-bold mb-0">Sociales y Ciudadanas: Alerta Estratégica</h1>
+                <p class="text-secondary mb-0">Análisis Crítico Basado en Evidencias y Desempeño (2023-2025)</p>
+            </div>
+            <div class="text-end small">
+                <strong>Realizado por:</strong><br>
+                Marlon Galvis Villa<br>
+                <span class="text-muted">Director de Pedagogía - Grupo Edúcate Colombia</span>
+            </div>
+        </header>
+
+        <!-- Visualización de Datos -->
+        <div class="row g-4 mb-5">
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-white fw-bold border-0 pt-3">Evolución de Puntaje Promedio (Crisis de Desempeño)</div>
+                    <div class="card-body"><canvas id="socialScoresChart"></canvas></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-white fw-bold border-0 pt-3">Categorización por Niveles (Aumento de Nivel 1)</div>
+                    <div class="card-body"><canvas id="socialLevelsChart"></canvas></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DOFA Especializado -->
+        <div class="card mb-5 border-0 shadow-sm">
+            <div class="card-header bg-dark text-white fw-bold">Interpretación de la Crisis Cognitiva (DOFA)</div>
+            <div class="card-body bg-light">
+                <div class="row">
+                    <div class="col-md-6 border-end border-danger">
+                        <h6 class="text-success fw-bold">Fortalezas / Oportunidades</h6>
+                        <p class="small">Se mantiene una <strong>desviación estándar de 11</strong>, indicando que el problema es sistémico y generalizado, lo que permite una intervención institucional masiva sin necesidad de micro-segmentación. La reaparición del Nivel 4 (1%) en 2025 indica un leve despertar de la excelencia individual.</p>
+                        <h6 class="text-info fw-bold">Zona de Intervención</h6>
+                        <p class="small">El 42% de estudiantes en Nivel 2 son "rescatables". Una estrategia de <strong>alfabetización constitucional básica</strong> podría mover este bloque hacia el Nivel 3 en el corto plazo.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-danger fw-bold">Debilidades Críticas (ALERTA ROJA)</h6>
+                        <p class="small">El <strong>Nivel 1 ha escalado del 32% al 43%</strong> en tres años; casi la mitad de la cohorte carece de herramientas para identificar prejuicios o funciones del Estado. El error en la <strong>Evaluación de Usos Sociales (65%)</strong> es 8 puntos superior al país, evidenciando una desconexión total con la aplicación ética del conocimiento social.</p>
+                        <h6 class="text-warning fw-bold">Amenazas al Puntaje Global</h6>
+                        <p class="small">El promedio de 44 puntos es el lastre principal del desempeño institucional. Existe un <strong>riesgo de analfabetismo democrático</strong>: los estudiantes no diferencian entre ramas del poder ni reconocen la Constitución como norma de normas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Matriz de Aprendizajes y Evidencias -->
+        <div class="card mb-5 border-0 shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold">Matriz de Referencia: Competencias y Evidencias (Modelo MBE)</div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover mb-0 small text-center">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Competencia</th>
+                                <th>Aprendizaje (Contenido Sugerido)</th>
+                                <th>Evidencia (Acción del Estudiante)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold">Pensamiento Social</td>
+                                <td>Estado Social de Derecho, Constitución y Ramas del Poder.</td>
+                                <td>• Identifica prejuicios e intenciones en discursos.<br>• Reconoce funciones de entes de control (Procuraduría, etc).</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Interpretación de Fuentes</td>
+                                <td>Dimensiones espaciales, temporales y multiperspectivismo.</td>
+                                <td>• Analiza si un argumento es coherente con una postura política.<br>• Identifica dimensiones (económica, social, política) de un hecho.</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Pensamiento Reflexivo</td>
+                                <td>Modelos de desarrollo y resolución de conflictos.</td>
+                                <td>• Evalúa la validez de soluciones a problemas sociales.<br>• Reconoce que los problemas sociales tienen múltiples causas.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ejercicio Modelo Ruta Metodológica -->
+        <div class="card mb-5 border-0 shadow">
+            <div class="card-header bg-secondary text-white fw-bold">Aplicación de la Ruta Maestra: Caso Ciudadano</div>
+            <div class="card-body bg-light">
+                <div class="p-4 border-start border-danger border-5 bg-white mb-4 rounded shadow-sm small">
+                    <strong>Ítem de Análisis:</strong> El gobierno decide construir una represa que inundará tierras ancestrales de una comunidad indígena para generar energía eléctrica a todo el país. Los indígenas se oponen basándose en su derecho a la tierra.<br>
+                    <strong>Pregunta:</strong> ¿Qué dimensiones entran en conflicto en esta situación?
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-danger fw-bold">1. Decodificación</h6>
+                            <p class="x-small"><strong>Tarea:</strong> Identificar dimensiones en conflicto. <strong>Actores:</strong> Gobierno (Nacional) e Indígenas (Local/Cultural).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-danger fw-bold">2. Conexión</h6>
+                            <p class="x-small"><strong>Saberes:</strong> Derechos fundamentales vs. Interés general. Dimensiones: Económica (Energía) vs. Cultural (Ancestralidad).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-danger fw-bold">3. Evaluación</h6>
+                            <p class="x-small"><strong>Análisis:</strong> Descarta opciones que hablen solo de dinero o solo de religión. Busca la respuesta integral que reconozca el conflicto de valores.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white rounded border h-100">
+                            <h6 class="text-danger fw-bold">4. Justificación</h6>
+                            <p class="x-small">La respuesta correcta debe resaltar la <strong>tensión entre el desarrollo económico nacional y la preservación cultural minoritaria</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Plan de Mejoramiento -->
+        <div class="card mb-5 border-0 shadow-sm border-top border-5 border-danger">
+            <div class="card-header bg-white fw-bold">Plan de Choque Institucional para Sociales</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6 border-end">
+                        <h6 class="fw-bold text-danger mb-3">Estrategias de Aula (Urgentes)</h6>
+                        <ul class="small lh-lg">
+                            <li><strong>Juicios simulados:</strong> Debates donde el estudiante no defiende su opinión, sino la postura de un actor social asignado (Multiperspectivismo).</li>
+                            <li><strong>Cartografía de Conflictos:</strong> Analizar noticias locales identificando: Quién gana, quién pierde y bajo qué ley se rigen.</li>
+                            <li><strong>Lectura Crítica de la Constitución:</strong> Lectura literal y analítica de los primeros 100 artículos (Derechos y Deberes).</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="fw-bold text-danger mb-3">Sugerencias para el Hogar (Tareas)</h6>
+                        <ul class="small lh-lg">
+                            <li><strong>Análisis de Caricaturas:</strong> Buscar una caricatura política semanal y explicar: ¿Cuál es la crítica del autor? y ¿A qué rama del poder afecta?</li>
+                            <li><strong>Glosario Democrático:</strong> Definir con ejemplos de la comunidad términos como <em>Tutela, Veeduría, y Soberanía</em>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-1 fw-bold">Marlon Galvis Villa</p>
+            <p class="mb-0 text-secondary small">Director de pedagogía - Grupo Edúcate Colombia</p>
+            <p class="mt-3 x-small text-muted">© 2026 - Informe Reservado para I.E. Francisco José de Caldas</p>
+        </div>
+    </footer>
+
+    <script>
+        Chart.register(ChartDataLabels);
+        const commonOptions = {
+            plugins: {
+                datalabels: { color: 'white', font: { weight: 'bold', size: 11 }, anchor: 'center', align: 'center' },
+                legend: { position: 'bottom' }
+            }
+        };
+
+        new Chart(document.getElementById('socialScoresChart'), {
+            type: 'bar',
+            data: {
+                labels: ['2023-4', '2024-3', '2025-3'],
+                datasets: [
+                    { label: 'Puntaje Promedio', data: [47, 44, 44], backgroundColor: '#ef4444' },
+                    { label: 'Desviación Estándar', data: [11, 11, 11], backgroundColor: '#94a3b8' }
+                ]
+            },
+            options: commonOptions
+        });
+
+        new Chart(document.getElementById('socialLevelsChart'), {
+            type: 'bar',
+            data: {
+                labels: ['2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Nivel 1', data: [32, 44, 43], backgroundColor: '#ef4444' },
+                    { label: 'Nivel 2', data: [46, 41, 42], backgroundColor: '#f97316' },
+                    { label: 'Nivel 3', data: [19, 15, 13], backgroundColor: '#3b82f6' },
+                    { label: 'Nivel 4', data: [3, 0, 1], backgroundColor: '#22c55e' }
+                ]
+            },
+            options: { ...commonOptions, scales: { x: { stacked: true }, y: { stacked: true, max: 100 } } }
+        });
+    </script>
+</body>
+</html>
